@@ -2,11 +2,10 @@
 
 [Home] (../index.html)
 [Ping Pong] (../ping-pong.html)
-[Read Me] (../README.md)
 
 # _Ping-Pong: Week Three - JavaScript Arrays and Looping Independent Projects_
 
-#### _Arrays and Looping Application, June 10, 2016 _
+#### _Ping Pong, June 10, 2016 _
 
 #### By _**Noah Yasskin**_
 
@@ -41,18 +40,19 @@ _No known issues to resolve_
 
 ## Support and contact details
 
-_If you run into any issues or have questions, ideas or concerns, I encourage you to contact us on GitHub or make a contribution to the code._
+_If you run into any issues or have questions, ideas or concerns, I encourage you to contact me on GitHub or make a contribution to the code._
 
 ## Technologies Used
 
 _HTML and CSS._
 _JavaScript and jQuery_
+_Google Fonts_
 
 ### License
 
 *The MIT License (MIT)
 
-Copyright © 2016 Noah Yasskin and Stephanie Gurung
+Copyright © 2016 Noah Yasskin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
