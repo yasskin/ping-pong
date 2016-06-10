@@ -1,18 +1,20 @@
-
-@font-face {
-  font-family: arcade;
-  src: url ("/fonts/ka1.tff");
+body {
+  font-size: 2em;
+  font-family: 'Press Start 2P', cursive;
 }
 
 button {
   margin: 20px;
 }
 
-#pong-output {
-  display: none;
+img {
+  margin: 5px;
 }
 
-body {
-  font-family: Impact, sans-serif;
-  font-size: 2em;
+.centered {
+  text-align: center;
+}
+
+.pong-output {
+  display: none;
 }

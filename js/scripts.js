@@ -6,13 +6,13 @@ var arrayGenerator = function(pongInput) {
   for (var index = 1; index <= pongInput; index += 1) {
 
     if (index % 15 === 0) {
-      arrayPingPong.push("ping-pong");
+      arrayPingPong.push(". ping-pong .");
     }
     else if (index % 5 === 0) {
-      arrayPingPong.push("pong");
+      arrayPingPong.push("| pong .");
     }
     else if (index % 3 === 0) {
-      arrayPingPong.push("ping");
+      arrayPingPong.push(". ping |");
     }
     else {
       arrayPingPong.push(index);
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     var pongResults = arrayGenerator(pongInput);
 
-    $("#pong-output").show();
+    $(".pong-output").show();
     console.log(pongInput);
 
     pongResults.forEach(function(result) {
