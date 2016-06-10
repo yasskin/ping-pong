@@ -1,3 +1,18 @@
+
+@font-face {
+  font-family: arcade;
+  src: url ("/fonts/ka1.tff");
+}
+
+button {
+  margin: 20px;
+}
+
 #pong-output {
   display: none;
+}
+
+body {
+  font-family: Impact, sans-serif;
+  font-size: 2em;
 }

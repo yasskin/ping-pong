@@ -10,24 +10,32 @@
   <body>
     <div class="container">
       <div class="page-header">
-        <h1>Ping-Pong: JavaScript Arrays and Looping Independent Project</h1>
+        <h1 class="arcade">Ping-Pong: JavaScript Arrays and Looping Independent Project</h1>
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation"><a href="index.html">Home</a></li>
         <li role="presentation" class="active"><a href="ping-pong.html">Ping-Pong</a></li>
         <li role="presentation"><a href="README.md">Read Me</a></li>
       </ul>
       </div>
-      <form id="pong-form">
-        <div class="form-group">
-          <label for"pong-label">Enter a number, and press <strong>Play</strong>!
-          <input id="pong-input" type="number">
+      <div class="row">
+        <div class="col-md-8">
+          <form id="pong-form">
+            <div class="form-group">
+              <label for"pong-label">Enter a number, and press <strong>Play</strong>!  </label>
+              <input id="pong-input" type="number">
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Play!</button>
+          </form>
+          <div id="pong-output">
+            <h3>Unleash the Balls:</h2>
+            <ul id="pong-results">
+            </ul>
+          </div>
         </div>
-        <button type="submit" class="btn btn-success btn-lg">Play!</button>
-      </form>
-      <div id="pong-output">
-        <h3>Unleash the Balls:</h2>
-        <ul id="pong-results">
-        </ul>
+        <div class="col-md-4">
+          <p>Made by: Noah Yasskin</p>
+          <p>@ Epicodus, 2016</p>
+        </div>
       </div>
     </div>
   </body>
