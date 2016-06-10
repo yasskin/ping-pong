@@ -18,14 +18,14 @@ var arrayGenerator = function(pongInput) {
     // var pingInsert = pingModulo(index);
     // console.log(pingInsert);
 
-    if (index === 3) {
-      arrayPingPong.push("ping");
+    if (index % 15 === 0) {
+      arrayPingPong.push("ping-pong");
     }
-    else if (index === 5) {
+    else if (index % 5 === 0) {
       arrayPingPong.push("pong");
     }
-    else if (index === 15) {
-      arrayPingPong.push("ping pong");
+    else if (index % 3 === 0) {
+      arrayPingPong.push("ping");
     }
     else {
       arrayPingPong.push(index);
